@@ -65,7 +65,7 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                 borderRadius: BorderRadius.circular(30),
               ),
               child: Image.asset(
-                'assets/images/image.png',
+                'assets/images/analysis.png',
                 height: Responsive.isLargeMobile(context)
                     ? MediaQuery.sizeOf(context).width * 0.2
                     : Responsive.isTablet(context)
